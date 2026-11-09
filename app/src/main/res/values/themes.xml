@@ -1,0 +1,4 @@
+<resources>
+    <!-- Window theme only; all UI styling lives in the Compose BatchResizerTheme. -->
+    <style name="Theme.ImageResizer" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

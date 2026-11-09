@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Batch Resizer</string>
+
+    <string name="screen_home">Batch Resizer</string>
+    <string name="screen_options">Opcje</string>
+    <string name="screen_progress">Postęp</string>
+    <string name="screen_results">Wyniki</string>
+
+    <string name="action_navigate_back">Wróć</string>
+    <string name="placeholder_coming_soon">Ten ekran nie jest jeszcze gotowy.</string>
+
+    <string name="notification_channel_jobs">Zadania zmiany rozmiaru</string>
+    <string name="notification_channel_jobs_description">Powiadomienia o postępie i podsumowaniu wsadowej zmiany rozmiaru.</string>
+    <string name="notification_progress_title">Zmieniam rozmiar zdjęć</string>
+    <string name="notification_progress_text">%1$d / %2$d</string>
+    <string name="notification_action_cancel">Anuluj</string>
+    <string name="notification_summary_title">Zakończono</string>
+    <string name="notification_summary_text">%1$d zmieniono, %2$d nieudanych, %3$d pominiętych</string>
+    <string name="notification_summary_cancelled_text">Anulowano — %1$d zmieniono, %2$d nieudanych, %3$d pominiętych</string>
+
+    <string name="action_continue">Kontynuuj</string>
+    <string name="action_cancel">Anuluj</string>
+
+    <string name="home_add_images">Dodaj zdjęcia</string>
+    <string name="home_add_images_sheet_title">Dodaj zdjęcia</string>
+    <string name="home_add_photos">Zdjęcia</string>
+    <string name="home_add_files">Pliki</string>
+    <string name="home_add_folder">Folder</string>
+    <string name="home_include_subfolders">Uwzględnij podfoldery</string>
+    <string name="home_quick_heic_to_jpeg">Konwertuj HEIC na JPEG</string>
+    <string name="home_heic_hint">%1$d plików HEIC · Konwertuj na JPEG</string>
+    <string name="home_selection_count">%1$d zdjęć · %2$s</string>
+    <string name="home_no_selection">Nie wybrano jeszcze żadnych zdjęć</string>
+    <string name="home_clear_all">Wyczyść wszystko</string>
+    <string name="home_remove_image">Usuń %1$s</string>
+    <string name="home_options_card_title">Opcje</string>
+    <string name="home_output_folder_title">Folder wyjściowy</string>
+    <string name="home_output_folder_change">Zmień</string>
+    <string name="home_output_folder_unset">Nie ustawiono</string>
+    <string name="home_output_folder_hint">Wybierz folder wyjściowy, aby kontynuować</string>
+    <string name="home_start_button">Zmień rozmiar %1$d zdjęć</string>
+    <string name="home_overwrite_warning_title">Nadpisać oryginały?</string>
+    <string name="home_overwrite_warning_message">Folder wyjściowy jest taki sam jak folder źródłowy. Kontynuowanie zastąpi oryginalne pliki.</string>
+
+    <string name="options_section_preset">Ustawienie wstępne</string>
+    <string name="options_save_as_preset">Zapisz jako ustawienie wstępne</string>
+    <string name="options_rename_preset">Zmień nazwę %1$s</string>
+    <string name="options_delete_preset">Usuń %1$s</string>
+    <string name="options_rename_preset_title">Zmień nazwę ustawienia wstępnego</string>
+    <string name="options_preset_name_label">Nazwa</string>
+    <string name="options_section_resize_mode">Tryb zmiany rozmiaru</string>
+    <string name="options_resize_original">Oryginalny rozmiar</string>
+    <string name="options_resize_longest_edge">Dłuższy bok</string>
+    <string name="options_resize_shortest_edge">Krótszy bok</string>
+    <string name="options_resize_exact_size">Dokładny rozmiar</string>
+    <string name="options_resize_percent">Procent</string>
+    <string name="options_resize_max_file_size">Maks. rozmiar pliku</string>
+    <string name="options_allow_upscaling">Zezwól na powiększanie</string>
+    <string name="options_width">Szerokość (px)</string>
+    <string name="options_height">Wysokość (px)</string>
+    <string name="options_fit_mode">Dopasowanie</string>
+    <string name="options_fit_fit">Dopasuj</string>
+    <string name="options_fit_fill">Wypełnij</string>
+    <string name="options_fit_stretch">Rozciągnij</string>
+    <string name="options_percent_label">Procent (%)</string>
+    <string name="options_max_kb_label">Maks. rozmiar (KB)</string>
+    <string name="options_max_longest_edge_label">Maks. dłuższy bok, opcjonalnie (px)</string>
+    <string name="options_section_format">Format i jakość</string>
+    <string name="options_format_keep_original">Zachowaj oryginalny</string>
+    <string name="options_format_jpeg">JPEG</string>
+    <string name="options_format_png">PNG</string>
+    <string name="options_format_webp">WebP</string>
+    <string name="options_keep_original_note">HEIC, AVIF i inne formaty są zapisywane jako JPEG</string>
+    <string name="options_png_disabled_max_file_size">PNG jest niedostępny dla maks. rozmiaru pliku</string>
+    <string name="options_quality">Jakość</string>
+    <string name="options_convert_srgb">Konwertuj kolory na sRGB</string>
+    <string name="options_only_process">Przetwarzaj tylko te formaty</string>
+    <string name="options_section_names">Nazwy plików</string>
+    <string name="options_pattern_label">Wzorzec</string>
+    <string name="options_preview_label">Podgląd: %1$s</string>
+    <string name="options_conflict_label">Jeśli plik już istnieje</string>
+    <string name="options_conflict_rename">Zmień nazwę</string>
+    <string name="options_conflict_skip">Pomiń</string>
+    <string name="options_conflict_overwrite">Nadpisz</string>
+    <string name="options_section_metadata">Metadane</string>
+    <string name="options_metadata_keep_all">Zachowaj wszystkie</string>
+    <string name="options_metadata_strip_gps">Usuń lokalizację</string>
+    <string name="options_metadata_strip_all">Usuń wszystkie</string>
+
+    <string name="progress_count">%1$d / %2$d</string>
+    <string name="progress_last_finished">Ostatnio ukończono: %1$s</string>
+    <string name="progress_elapsed">Upłynęło %1$s</string>
+    <string name="progress_eta">Pozostało %1$s</string>
+    <string name="progress_cancel">Anuluj</string>
+    <string name="progress_cancel_confirm_title">Anulować tę partię?</string>
+    <string name="progress_cancel_confirm_message">Już przetworzone zdjęcia zachowają swoje pliki wyjściowe.</string>
+    <string name="progress_state_succeeded">Zakończono sukcesem</string>
+    <string name="progress_state_failed">Niepowodzenie</string>
+    <string name="progress_state_cancelled">Anulowano</string>
+    <string name="progress_view_results">Pokaż wyniki</string>
+    <string name="progress_none_running">Żadna partia nie jest przetwarzana.</string>
+
+    <string name="results_totals">%1$d udanych · %2$d nieudanych · %3$d pominiętych</string>
+    <string name="results_size_saved">%1$s → %2$s (oszczędność %3$d%%)</string>
+    <string name="results_filter_all">Wszystkie</string>
+    <string name="results_filter_failed">Nieudane</string>
+    <string name="results_filter_skipped">Pominięte</string>
+    <string name="results_retry_failed">Ponów nieudane</string>
+    <string name="results_open_folder">Otwórz folder</string>
+    <string name="results_empty">Brak wyników.</string>
+</resources>

@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.ImageResizer" parent="android:Theme.Material.NoActionBar" />
+</resources>

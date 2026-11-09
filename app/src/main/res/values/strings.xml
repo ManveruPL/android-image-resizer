@@ -1,0 +1,112 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Batch Resizer</string>
+
+    <string name="screen_home">Batch Resizer</string>
+    <string name="screen_options">Options</string>
+    <string name="screen_progress">Progress</string>
+    <string name="screen_results">Results</string>
+
+    <string name="action_navigate_back">Navigate back</string>
+    <string name="placeholder_coming_soon">This screen is not implemented yet.</string>
+
+    <string name="notification_channel_jobs">Resize jobs</string>
+    <string name="notification_channel_jobs_description">Progress and summary notifications for batch resize jobs.</string>
+    <string name="notification_progress_title">Resizing images</string>
+    <string name="notification_progress_text">%1$d / %2$d</string>
+    <string name="notification_action_cancel">Cancel</string>
+    <string name="notification_summary_title">Resize finished</string>
+    <!-- "resized"/"failed"/"skipped" don't inflect by count in English, so this isn't a real plural. -->
+    <string name="notification_summary_text" tools:ignore="PluralsCandidate">%1$d resized, %2$d failed, %3$d skipped</string>
+    <string name="notification_summary_cancelled_text" tools:ignore="PluralsCandidate">Cancelled — %1$d resized, %2$d failed, %3$d skipped</string>
+
+    <string name="action_continue">Continue</string>
+    <string name="action_cancel">Cancel</string>
+
+    <string name="home_add_images">Add images</string>
+    <string name="home_add_images_sheet_title">Add images</string>
+    <string name="home_add_photos">Photos</string>
+    <string name="home_add_files">Files</string>
+    <string name="home_add_folder">Folder</string>
+    <string name="home_include_subfolders">Include subfolders</string>
+    <string name="home_quick_heic_to_jpeg">Convert HEIC to JPEG</string>
+    <string name="home_heic_hint" tools:ignore="PluralsCandidate">%1$d HEIC files · Convert to JPEG</string>
+    <string name="home_selection_count" tools:ignore="PluralsCandidate">%1$d images · %2$s</string>
+    <string name="home_no_selection">No images selected yet</string>
+    <string name="home_clear_all">Clear all</string>
+    <string name="home_remove_image">Remove %1$s</string>
+    <string name="home_options_card_title">Options</string>
+    <string name="home_output_folder_title">Output folder</string>
+    <string name="home_output_folder_change">Change</string>
+    <string name="home_output_folder_unset">Not set</string>
+    <string name="home_output_folder_hint">Choose an output folder to continue</string>
+    <string name="home_start_button" tools:ignore="PluralsCandidate">Resize %1$d images</string>
+    <string name="home_overwrite_warning_title">Overwrite originals?</string>
+    <string name="home_overwrite_warning_message">The output folder is the same as the source folder. Continuing will replace your original files.</string>
+
+    <string name="options_section_preset">Preset</string>
+    <string name="options_save_as_preset">Save as preset</string>
+    <string name="options_rename_preset">Rename %1$s</string>
+    <string name="options_delete_preset">Delete %1$s</string>
+    <string name="options_rename_preset_title">Rename preset</string>
+    <string name="options_preset_name_label">Name</string>
+    <string name="options_section_resize_mode">Resize mode</string>
+    <string name="options_resize_original">Original size</string>
+    <string name="options_resize_longest_edge">Longest edge</string>
+    <string name="options_resize_shortest_edge">Shortest edge</string>
+    <string name="options_resize_exact_size">Exact size</string>
+    <string name="options_resize_percent">Percent</string>
+    <string name="options_resize_max_file_size">Max file size</string>
+    <string name="options_allow_upscaling">Allow upscaling</string>
+    <string name="options_width">Width (px)</string>
+    <string name="options_height">Height (px)</string>
+    <string name="options_fit_mode">Fit</string>
+    <string name="options_fit_fit">Fit</string>
+    <string name="options_fit_fill">Fill</string>
+    <string name="options_fit_stretch">Stretch</string>
+    <string name="options_percent_label">Percent (%)</string>
+    <string name="options_max_kb_label">Max size (KB)</string>
+    <string name="options_max_longest_edge_label">Max longest edge, optional (px)</string>
+    <string name="options_section_format">Format &amp; quality</string>
+    <string name="options_format_keep_original">Keep original</string>
+    <string name="options_format_jpeg">JPEG</string>
+    <string name="options_format_png">PNG</string>
+    <string name="options_format_webp">WebP</string>
+    <string name="options_keep_original_note">HEIC, AVIF and other formats are saved as JPEG</string>
+    <string name="options_png_disabled_max_file_size">PNG isn\'t available for Max file size</string>
+    <string name="options_quality">Quality</string>
+    <string name="options_convert_srgb">Convert colors to sRGB</string>
+    <string name="options_only_process">Only process these formats</string>
+    <string name="options_section_names">File names</string>
+    <string name="options_pattern_label">Pattern</string>
+    <string name="options_preview_label">Preview: %1$s</string>
+    <string name="options_conflict_label">If a file already exists</string>
+    <string name="options_conflict_rename">Rename</string>
+    <string name="options_conflict_skip">Skip</string>
+    <string name="options_conflict_overwrite">Overwrite</string>
+    <string name="options_section_metadata">Metadata</string>
+    <string name="options_metadata_keep_all">Keep all</string>
+    <string name="options_metadata_strip_gps">Remove location</string>
+    <string name="options_metadata_strip_all">Remove all</string>
+
+    <string name="progress_count">%1$d / %2$d</string>
+    <string name="progress_last_finished">Last finished: %1$s</string>
+    <string name="progress_elapsed">Elapsed %1$s</string>
+    <string name="progress_eta">ETA %1$s</string>
+    <string name="progress_cancel">Cancel</string>
+    <string name="progress_cancel_confirm_title">Cancel this batch?</string>
+    <string name="progress_cancel_confirm_message">Already-processed images keep their output files.</string>
+    <string name="progress_state_succeeded">Succeeded</string>
+    <string name="progress_state_failed">Failed</string>
+    <string name="progress_state_cancelled">Cancelled</string>
+    <string name="progress_view_results">View results</string>
+    <string name="progress_none_running">No batch is running.</string>
+
+    <string name="results_totals" tools:ignore="PluralsCandidate">%1$d succeeded · %2$d failed · %3$d skipped</string>
+    <string name="results_size_saved">%1$s → %2$s (%3$d%% saved)</string>
+    <string name="results_filter_all">All</string>
+    <string name="results_filter_failed">Failed</string>
+    <string name="results_filter_skipped">Skipped</string>
+    <string name="results_retry_failed">Retry failed</string>
+    <string name="results_open_folder">Open folder</string>
+    <string name="results_empty">No results yet.</string>
+</resources>

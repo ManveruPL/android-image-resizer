@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+         Test-support provider (see FakeContentProvider.kt). Declared in the debug-only source
+         set so it is part of the app's own package (same UID, same dex, real shared state with
+         test code) for instrumented tests, but is never present in a release build.
+    -->
+    <application>
+        <provider
+            android:name="pl.fehu.imageresizer.FakeContentProvider"
+            android:authorities="pl.fehu.imageresizer.test.fakecontent"
+            android:exported="false"
+            android:grantUriPermissions="true" />
+    </application>
+
+</manifest>
